@@ -1,0 +1,38 @@
+{
+ "properties": {
+  "displayName": "RG naming convention contains -rg",
+  "policyType": "Custom",
+  "mode": "All",
+  "description": "RG naming convention, contains -rg",
+  "metadata": {
+   "category": "Naming",
+   "createdBy": "87562d48-eef3-4461-b49b-602404328d7a",
+   "createdOn": "2020-07-16T12:56:30.5394085Z",
+   "updatedBy": "87562d48-eef3-4461-b49b-602404328d7a",
+   "updatedOn": "2020-07-16T13:00:55.8732361Z"
+  },
+  "parameters": {},
+  "policyRule": {
+   "if": {
+    "allOf": [
+     {
+      "field": "type",
+      "equals": "Microsoft.Resources/subscriptions/resourceGroups"
+     },
+     {
+      "not": {
+       "field": "name",
+       "contains": "-rg"
+      }
+     }
+    ]
+   },
+   "then": {
+    "effect": "deny"
+   }
+  }
+ },
+ "id": "/subscriptions/16169bdf-109c-4eb7-9963-3d01e2352774/providers/Microsoft.Authorization/policyDefinitions/e29f3a5d-d56a-4e38-861e-43273f431344",
+ "type": "Microsoft.Authorization/policyDefinitions",
+ "name": "e29f3a5d-d56a-4e38-861e-43273f431344"
+}

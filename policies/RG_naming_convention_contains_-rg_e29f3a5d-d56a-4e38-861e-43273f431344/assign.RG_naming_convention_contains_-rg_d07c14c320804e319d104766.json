@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "RG naming convention contains -rg",
+  "policyDefinitionId": "/subscriptions/16169bdf-109c-4eb7-9963-3d01e2352774/providers/Microsoft.Authorization/policyDefinitions/e29f3a5d-d56a-4e38-861e-43273f431344",
+  "scope": "/subscriptions/16169bdf-109c-4eb7-9963-3d01e2352774",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Unai Huete Beloki",
+   "parameterScopes": {},
+   "createdBy": "87562d48-eef3-4461-b49b-602404328d7a",
+   "createdOn": "2020-11-13T11:02:13.542787Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/16169bdf-109c-4eb7-9963-3d01e2352774/providers/Microsoft.Authorization/policyAssignments/d07c14c320804e319d104766",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "d07c14c320804e319d104766"
+}
