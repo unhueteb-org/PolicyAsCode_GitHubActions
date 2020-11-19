@@ -1,6 +1,6 @@
 {
  "properties": {
-  "displayName": "RG naming convention contains -rg",
+  "displayName": "RG naming convention for unai´s subscription contains -rg",
   "policyType": "Custom",
   "mode": "All",
   "description": "RG naming convention, contains -rg",
